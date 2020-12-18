@@ -1,11 +1,12 @@
-const FIRST_COLUMN = 1;
-const SECOND_COLUMN = 2;
-const THIRD_COLUMN = 3;
-
 /**
  * Метод устанавливает необходимые по условию аттрибуты таблице
  * @param {Element} table
  */
+
+const FIRST_COLUMN = 1;
+const SECOND_COLUMN = 2;
+const THIRD_COLUMN = 3;
+
 function highlight(table) {
   const actions = {
     [THIRD_COLUMN]: (root, td) => {
